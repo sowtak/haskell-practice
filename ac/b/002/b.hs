@@ -1,1 +1,1 @@
-main =  [b,c] <- map read $ words "a a" :: [Int]
+main=getLine>>=putStrLn.filter(`notElem`"aiueo") 
